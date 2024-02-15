@@ -16,7 +16,7 @@
         },
         filter: function(selector, cb = null){
     
-            const el = originalFilter.call(this, selector);
+            const ctx = originalFilter.call(this, selector);
     
             if(!cb)
                 return ctx;
